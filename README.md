@@ -1,6 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ReactJS : Create Form
+- creating Form With React JS 
 
-## Available Scripts
+
+### Fields Created
+- input text
+- input radio
+- input checkbox
+- multiple checkboxes
+- select (dropdown list) 
+
+### Files:
+- /src/index.js
+- /src/App.js
+- /src/index.css
+
+   
+### Available Scripts
 
 In the project directory, you can run:
 

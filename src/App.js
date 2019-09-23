@@ -11,7 +11,6 @@ class App extends React.Component {
       lastName: "",
       age: "",
       gender: "",
-      genderID: "gID",
       locations: "Germany",
       alergies: {
         isVegan: false,
@@ -71,12 +70,12 @@ class App extends React.Component {
             <div className="gender">
               <span>Gender </span>
               <span>
-                <input type="radio" name="gender" id={this.state.genderID} checked={this.state.gender === "Male"}  value="Male" onChange={this.handleChange} />
-                <label htmlFor={this.state.genderID}>Male</label>
+                <input type="radio" name="gender"  checked={this.state.gender === "Male"}  value="Male" onChange={this.handleChange} />
+                <label>Male</label>
 
                 <div className="clear"></div>
-                <input type="radio" name="gender" id={this.state.genderID} checked={this.state.gender === "Female"}  value="Female" onChange={this.handleChange} />
-                <label htmlFor={this.state.genderID}>Female</label>
+                <input type="radio" name="gender"  checked={this.state.gender === "Female"}  value="Female" onChange={this.handleChange} />
+                <label>Female</label>
               </span>
             </div>
 
