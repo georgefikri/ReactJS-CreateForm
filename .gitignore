@@ -1,9 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-src/App-bkp.js
-src/App-test.js
-src/logo.svg
-src/serviceWorker.js
+/src/App-bkp.js
+/src/App-test.js
+/src/logo.svg
+/src/serviceWorker.js
 
 # dependencies
 /node_modules
